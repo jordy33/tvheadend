@@ -36,5 +36,6 @@ cd dvb-scan
 sudo cp /usr/share/dvb . -fr
 
 cd /usr/src/tvheadend
-sudo ./configure
+// sudo ./configure
+sudo ./configure --disable-libav
 sudo make
